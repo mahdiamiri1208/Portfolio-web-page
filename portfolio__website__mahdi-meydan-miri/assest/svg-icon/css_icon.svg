@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<svg width="60px" height="73px" viewBox="5 14 30 22" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <path d="M32.34,15.34,30.1,40.2,20,43,9.9,40.2,7.66,15.34ZM13.22,31l.43,4.86L20,37.65h0l6.33-1.75,1.4-15.75H12.25l.28,3.09H24.34l-.28,3.17H12.81l.27,3.09H23.8l-.36,4L20,34.44h0l-3.45-.93L16.32,31Z" fill="#343434"/>
+    
+    <text x="11" y="14" font-size="8" font-weight="900" fill="#343434" font-family="Arial">C</text>
+    
+    <text x="17" y="14" font-size="8" font-weight="900" fill="#343434" font-family="Arial">S</text>
+    
+    <text x="23" y="14" font-size="8" font-weight="900" fill="#343434" font-family="Arial">S</text>
+  </g>
+</svg>
