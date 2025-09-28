@@ -53,23 +53,23 @@ table {
 */
 @font-face {
     font-family: Oswald-Bold;
-    src: url(../assest/font/Oswald-Bold.ttf) format("truetype");
+    src: url(../assets/font/Oswald-Bold.ttf) format("truetype");
 }
 @font-face {
     font-family: Oswald-SemiBold;
-    src: url(../assest/font/Oswald-SemiBold.ttf) format("truetype");
+    src: url(../assets/font/Oswald-SemiBold.ttf) format("truetype");
 }
 @font-face {
     font-family: Oswald-Regular;
-    src: url(../assest/font/Oswald-Regular.ttf) format("truetype");
+    src: url(../assets/font/Oswald-Regular.ttf) format("truetype");
 }
 @font-face {
     font-family: Oswald-Light;
-    src: url(../assest/font/Oswald-Light.ttf) format("truetype");
+    src: url(../assets/font/Oswald-Light.ttf) format("truetype");
 }
 @font-face {
     font-family: RubikMonoOne-Regular;
-    src: url(../assest/font/RubikMonoOne-Regular.ttf) format("truetype");
+    src: url(../assets/font/RubikMonoOne-Regular.ttf) format("truetype");
 }
 /*
 ======================================================================
@@ -147,7 +147,7 @@ a{
     z-index: 15;
     border-radius: 80px;
     background-color: var(--lighter_gray);
-    background-image: url(../assest/image/asfalt-dark.png);
+    background-image: url(../assets/image/asfalt-dark.png);
 }
 .container{
     width: 85% !important;
@@ -440,7 +440,7 @@ a{
 ======================================================================
 */
 .carousel-container{
-    background-image: url(../assest/image/asfalt-dark.png);
+    background-image: url(../assets/image/asfalt-dark.png);
     width: 100%;
     position: relative;
     z-index: 9;
@@ -479,10 +479,10 @@ a{
 ======================================================================
 */
 main{
-    background-image: url(../assest/image/asfalt-dark.png);
+    background-image: url(../assets/image/asfalt-dark.png);
 }
 .main__section{
-    background-image: url(../assest/image/asfalt-dark.png);
+    background-image: url(../assets/image/asfalt-dark.png);
     background-color: var(--lighter_gray);
     position: relative;
     z-index: 5;
@@ -550,7 +550,7 @@ main{
     font-family: Oswald-Light;
 }
 .footer{
-    background-image: url(../assest/image/asfalt-dark.png);
+    background-image: url(../assets/image/asfalt-dark.png);
     background-color: var(--section_logo_gray);
     border-radius: 80px;
 }
