@@ -418,17 +418,26 @@
                       CMS Manager
                     </h5>
                     <p
-                      class="card-text fs-3 mb-4"
+                      class="card-text fs-3 mb-2"
                       style="line-height: 2.4rem; font-family: Oswald-Light"
                     >
                       Admin dashboard with data, user stats, list, edit, and
                       delete features.
                     </p>
+                    <p
+                      class="card-text text-muted my-4"
+                      style="font-size: 1.4rem; font-family: Oswald-Light"
+                    >
+                      Built with:
+                      <strong
+                        >React (SPA), Recharts, MUI, React Bootstrap</strong
+                      >
+                    </p>
                     <div class="head__btn d-flex justify-content-center">
                       <a
                         href="https://bucolic-entremet-a9ad61.netlify.app/"
                         class="head__btn__project btn-project m-0"
-                        >View projects</a
+                        >View project</a
                       >
                     </div>
                   </div>
@@ -464,17 +473,23 @@
                       Landing Page
                     </h5>
                     <p
-                      class="card-text fs-3 mb-4"
+                      class="card-text fs-3 mb-2"
                       style="line-height: 2.4rem; font-family: Oswald-Light"
                     >
                       Informational landing page showcasing the service or
-                      product
+                      product.
+                    </p>
+                    <p
+                      class="card-text text-muted my-4"
+                      style="font-size: 1.4rem; font-family: Oswald-Light"
+                    >
+                      Built with: <strong>HTML, CSS</strong>
                     </p>
                     <div class="head__btn d-flex justify-content-center">
                       <a
                         href="https://thunderous-dolphin-e536b6.netlify.app/"
                         class="head__btn__project btn-project m-0"
-                        >View projects</a
+                        >View project</a
                       >
                     </div>
                   </div>
@@ -510,22 +525,32 @@
                       Pastry Supplies
                     </h5>
                     <p
-                      class="card-text fs-3 mb-4"
+                      class="card-text fs-3 mb-2"
                       style="line-height: 2.4rem; font-family: Oswald-Light"
                     >
                       Online store for baking, pastry and birthday ingredients
-                      and tools
+                      and tools.
+                    </p>
+                    <p
+                      class="card-text text-muted my-4"
+                      style="font-size: 1.4rem; font-family: Oswald-Light"
+                    >
+                      Built with:
+                      <strong>React (SPA), MUI, React Bootstrap</strong>
+                      <br /><em>Currently under development</em>
                     </p>
                     <div class="head__btn d-flex justify-content-center">
                       <a
                         href="https://pastrysupplies.onrender.com"
                         class="head__btn__project btn-project m-0"
-                        >View projects</a
+                        >View project</a
                       >
                     </div>
                   </div>
                 </div>
               </div>
+
+              <!-- Project 4 -->
               <div class="col-12 col-sm-6 col-lg-4">
                 <div
                   class="card h-100 border-0 p-4"
@@ -554,17 +579,23 @@
                       Unit Conversion
                     </h5>
                     <p
-                      class="card-text fs-3 mb-4"
+                      class="card-text fs-3 mb-2"
                       style="line-height: 2.4rem; font-family: Oswald-Light"
                     >
                       Simple tool for converting between different units of
                       length, weight, and area.
                     </p>
+                    <p
+                      class="card-text text-muted my-4"
+                      style="font-size: 1.4rem; font-family: Oswald-Light"
+                    >
+                      Built with: <strong>HTML, CSS, JavaScript</strong>
+                    </p>
                     <div class="head__btn d-flex justify-content-center">
                       <a
                         href="https://unit-conversion-vc66.onrender.com/"
                         class="head__btn__project btn-project m-0"
-                        >View projects</a
+                        >View project</a
                       >
                     </div>
                   </div>
@@ -602,7 +633,7 @@
                 <span class="footer__btns__text-email">Call me</span>
               </a>
             </div>
-            
+
             <div class="footer__btns__btn-telegram btn">
               <a
                 href="https://t.me/mahdi12088"
@@ -626,19 +657,28 @@
             </div>
             <div class="footer__allright-socialmedia__socialmedia d-flex gap-3">
               <div class="footer__socialmedia-item">
-                <a href="https://instagram.com/mahdi.amirri" class="footer__socialmedia-item__text">
+                <a
+                  href="https://instagram.com/mahdi.amirri"
+                  class="footer__socialmedia-item__text"
+                >
                   <span>Instagram</span>
                 </a>
               </div>
               <span>/</span>
               <div class="footer__socialmedia-item">
-                <a href="https://linkedin.com/in/mahdi-meydan-miri-a391332b9/" class="footer__socialmedia-item__text">
+                <a
+                  href="https://linkedin.com/in/mahdi-meydan-miri-a391332b9/"
+                  class="footer__socialmedia-item__text"
+                >
                   <span>Linkdean</span>
                 </a>
               </div>
               <span>/</span>
               <div class="footer__socialmedia-item">
-                <a href="https://github.com/mahdiamiri1208" class="footer__socialmedia-item__text">
+                <a
+                  href="https://github.com/mahdiamiri1208"
+                  class="footer__socialmedia-item__text"
+                >
                   <span>Github</span>
                 </a>
               </div>
@@ -658,37 +698,36 @@
       crossorigin="anonymous"
     ></script>
     <script>
-function copyEmail(email, button) {
-  navigator.clipboard.writeText(email).then(() => {
-    const spanFirst = button.querySelector("span:first-child");
-    const spanLast = button.querySelector("span:last-child");
+      function copyEmail(email, button) {
+        navigator.clipboard.writeText(email).then(() => {
+          const spanFirst = button.querySelector("span:first-child");
+          const spanLast = button.querySelector("span:last-child");
 
-    // نمایش Copied و مخفی کردن Copy
-    spanFirst.style.transform = "translateX(-50%) translateY(-150%)";
-    spanFirst.style.opacity = "0";
-    spanLast.style.transform = "translateX(-50%) translateY(-50%)";
-    spanLast.style.opacity = "1";
+          // نمایش Copied و مخفی کردن Copy
+          spanFirst.style.transform = "translateX(-50%) translateY(-150%)";
+          spanFirst.style.opacity = "0";
+          spanLast.style.transform = "translateX(-50%) translateY(-50%)";
+          spanLast.style.opacity = "1";
 
-    // تغییر بک‌گراند هنگام Copied
-    button.style.backgroundColor = "var(--dark_gray)";
+          // تغییر بک‌گراند هنگام Copied
+          button.style.backgroundColor = "var(--dark_gray)";
 
-    // بعد از 2 ثانیه برگرده به حالت اولیه
-    setTimeout(() => {
-      // بازگرداندن span اول
-      spanFirst.style.transform = "translate(-50%, -50%)";
-      spanFirst.style.opacity = "1";
-      spanFirst.style.color = "var(--dark_gray)"; // رنگ اصلی
+          // بعد از 2 ثانیه برگرده به حالت اولیه
+          setTimeout(() => {
+            // بازگرداندن span اول
+            spanFirst.style.transform = "translate(-50%, -50%)";
+            spanFirst.style.opacity = "1";
+            spanFirst.style.color = "var(--dark_gray)"; // رنگ اصلی
 
-      // مخفی کردن span دوم
-      spanLast.style.transform = "translateY(100%) translateX(-50%)";
-      spanLast.style.opacity = "0";
+            // مخفی کردن span دوم
+            spanLast.style.transform = "translateY(100%) translateX(-50%)";
+            spanLast.style.opacity = "0";
 
-      // بازگرداندن بک‌گراند
-      button.style.backgroundColor = "white"; // یا رنگ اولیه دکمه
-    }, 2000);
-  });
-}
-
+            // بازگرداندن بک‌گراند
+            button.style.backgroundColor = "white"; // یا رنگ اولیه دکمه
+          }, 2000);
+        });
+      }
 
       document.addEventListener("DOMContentLoaded", () => {
         const email = "mahdiamiri1208@gmail.com";
