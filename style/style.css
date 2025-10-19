@@ -414,6 +414,7 @@ a {
   margin-left: 10px;
   margin-right: 5px;
   font-size: 14px;
+  background-color: white;
 }
 .nav__mobile__gmail-box__copy-btn span:first-child {
   color: var(--dark_gray);
